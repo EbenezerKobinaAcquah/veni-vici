@@ -1,0 +1,89 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.seen-dogs,
+.ban-list {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.main-content {
+  width: 50%;
+  text-align: center;
+}
+
+.dog-card {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.dog-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.clickable {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dog-properties span {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dog-properties span:hover {
+  background-color: #ddd;
+}
+
+.ban-list {
+  margin-top: 20px;
+}
+
+.ban-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ban-list li {
+  margin: 5px 0;
+}
+
+.ban-list button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.seen-dog {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.seen-dog img {
+  width: 100%;
+  border-radius: 8px;
+}
